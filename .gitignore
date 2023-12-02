@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Logs
+*.log
+
+# Arquivos temporários
+.DS_Store
+*.tmp
+
+# Dependendo do seu ambiente de desenvolvimento, você pode adicionar mais entradas para ignorar outros arquivos ou diretórios específicos.

@@ -31,3 +31,9 @@
 9 - Instalar o plugin ES6 Mocha Snippets
 
 
+
+//Em Erros desconhecidos, desligue o alerta - Atualizar comando no arquivo -> suport -> e2e.js
+Cypress.on('uncaught:exception', () => {
+    return false
+
+

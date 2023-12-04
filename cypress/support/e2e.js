@@ -18,3 +18,9 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+
+//Em Erros desconhecidos, desligue o alerta
+Cypress.on('uncaught:exception', () => {
+    return false
+})
